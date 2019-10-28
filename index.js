@@ -23,6 +23,12 @@ app.get('/', function (req, res) {
     });
 });
 
+// create about page route
+
+app.get('/about.html', function (req, res) {
+    res.render('about', {
+    });
+});
 
 
 // set static folder
