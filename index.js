@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
-const otherstuff = "hello there, this is other stuff"
+const otherstuff = "hello there, this is other stuff i added"
 
 
 //set handlebar routes
